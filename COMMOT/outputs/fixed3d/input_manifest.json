@@ -1,0 +1,17 @@
+[
+  {
+    "path": "fixed_input/counts_raw.tsv.gz",
+    "sha256": "359d214f10253722ba74b003aae2b314466ae7bb8fc93e12d56d87df6aeec21a",
+    "size_bytes": 62325
+  },
+  {
+    "path": "fixed_input/coordinates.tsv",
+    "sha256": "697a555708b0b695c9319d47418b2340eb06c15b557316b253e9b535c63535be",
+    "size_bytes": 32744
+  },
+  {
+    "path": "ligand_receptor_table.tsv",
+    "sha256": "893c55ba6109d71063577d885e076c25f275cf700c1d78786ba2028a5afe51cb",
+    "size_bytes": 479
+  }
+]

@@ -1,0 +1,2 @@
+call	inference_seconds	process_peak_RSS_before_inference_MiB	process_peak_RSS_after_inference_MiB	memory_scope
+synthetic	6.635725688000093	312.71875	320.09375	OS process lifetime high-water mark, including imports/loading; not inference-only allocation

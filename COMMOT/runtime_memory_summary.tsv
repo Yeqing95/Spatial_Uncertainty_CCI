@@ -1,0 +1,5 @@
+stage	inference_seconds	process_peak_RSS_MiB	stage_seconds_including_imports_io
+official_toy	0.183789	310.453125	1.646031
+z_test	0.476487	311.640625	1.758736
+fixed3d	6.635726	321.535156	8.358753
+official_basic	33.725982	730.992188	44.177778

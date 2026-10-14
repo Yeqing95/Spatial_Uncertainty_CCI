@@ -1,0 +1,3 @@
+lr_id	ligand	receptor	n_nonzero_edges	n_self_edges	n_cross_section_edges
+LR001	gene_103	gene_101	978	252	0
+LR002	gene_104	gene_102	16142	290	10321

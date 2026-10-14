@@ -1,0 +1,6 @@
+lr_id	ligand	receptor	n_nonzero_edges	n_self_edges	n_cross_section_edges
+LR001	Tgfb1	Tgfbr1_Tgfbr2	1138	31	
+LR002	Tgfb2	Tgfbr1_Tgfbr2	2280	52	
+LR003	Tgfb3	Tgfbr1_Tgfbr2	1778	34	
+LR004	Fgf1	Fgfr1	57316	1127	
+LR005	Fgf1	Fgfr2	51402	1031	

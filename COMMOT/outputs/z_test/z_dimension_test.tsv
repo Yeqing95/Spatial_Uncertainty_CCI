@@ -1,0 +1,6 @@
+scenario	s1_to_r1	s2_to_r2
+xy	5.0	5.0
+xyz_zero	5.0	5.0
+xyz_raised	0.0	5.0
+xyz_explicit_3d_distance	0.0	5.0
+xyz_stale_2d_distance	5.0	5.0

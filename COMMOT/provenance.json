@@ -1,0 +1,64 @@
+{
+  "prepared_utc": "2026-10-14T05:11:44.209988+00:00",
+  "commot_version": "0.0.3",
+  "code_source": "installed PyPI distribution, unmodified",
+  "upstream_source_snapshot": "https://github.com/zcang/COMMOT/tree/d117445bc07eaa19109c7609e97d9e35b26e99ca",
+  "synthetic_input_source": "previously generated controlled_benchmark_v1/aim3a_controlled_v1 fixed_input and ligand_receptor_table.tsv; byte-for-byte copies",
+  "synthetic_data_kind": "custom semi-synthetic 3D generator with scMultiSim expression background; NOT native scMultiSim 3D CCI",
+  "official_tutorial": "https://commot.readthedocs.io/en/latest/notebooks/Basic_usage.html",
+  "official_tutorial_scope": "first 6 code blocks; load, preprocessing, infer 5 pairs, sender/receiver scatter",
+  "official_visium_input_files": [
+    {
+      "cache_path": "download_cache/V1_Mouse_Brain_Sagittal_Posterior/V1_Mouse_Brain_Sagittal_Posterior_spatial.tar.gz",
+      "size_bytes": 9708526,
+      "sha256": "b878d7eaca487ffc17224a870f86599abf9d45a99033c1ef65661ff119cef0d5"
+    },
+    {
+      "cache_path": "download_cache/V1_Mouse_Brain_Sagittal_Posterior/filtered_feature_bc_matrix.h5",
+      "size_bytes": 21068517,
+      "sha256": "df962209143860488bd679ff7a1b3bb14985208d0929fb814934ba7571c488b6"
+    },
+    {
+      "cache_path": "download_cache/V1_Mouse_Brain_Sagittal_Posterior/spatial/tissue_positions_list.csv",
+      "size_bytes": 185267,
+      "sha256": "40aee6732a290fc3fdedd3be33572d7a32d9792f442045324a3a770956a1682b"
+    },
+    {
+      "cache_path": "download_cache/V1_Mouse_Brain_Sagittal_Posterior/spatial/aligned_fiducials.jpg",
+      "size_bytes": 1782562,
+      "sha256": "5f6d32d790601bd209de837838250d8b769013c7fdf93d46d82e1e49b1b70e74"
+    },
+    {
+      "cache_path": "download_cache/V1_Mouse_Brain_Sagittal_Posterior/spatial/tissue_hires_image.png",
+      "size_bytes": 5515168,
+      "sha256": "182ebc5854a29e54be3dbe5fff58645339e67e12a9a85aa0b9b446389b3f41df"
+    },
+    {
+      "cache_path": "download_cache/V1_Mouse_Brain_Sagittal_Posterior/spatial/tissue_lowres_image.png",
+      "size_bytes": 458912,
+      "sha256": "5cd40e361fb604fe516b47f2811f76eb4a2d21e317dc6238ad5de9c6263eec81"
+    },
+    {
+      "cache_path": "download_cache/V1_Mouse_Brain_Sagittal_Posterior/spatial/scalefactors_json.json",
+      "size_bytes": 165,
+      "sha256": "d667b5e940a245b771369d8b765e54525616f05f84a32481c95543f1fe1cd067"
+    },
+    {
+      "cache_path": "download_cache/V1_Mouse_Brain_Sagittal_Posterior/spatial/detected_tissue_image.jpg",
+      "size_bytes": 1975578,
+      "sha256": "56a1b1600c5f8c9cbf76295f35546cde8c883b28f3f96c30a58186a11b4288cb"
+    }
+  ],
+  "status": {
+    "downloaded": true,
+    "installed_successfully": true,
+    "dependency_check": "PASS",
+    "official_api_toy_reproduced": true,
+    "official_basic_core_workflow_and_scatter_reproduced": true,
+    "official_basic_later_vector_field_panels": "NOT_RUN",
+    "xyz_effect_test": "PASS",
+    "fixed_3d_input_output_compatibility": "PASS",
+    "accuracy_benchmark": "NOT_RUN",
+    "tested_platform": "Linux x86_64; Mac not tested"
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "stage": "official_toy",
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  {
+    "stage": "z_test",
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  {
+    "stage": "fixed3d",
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  {
+    "stage": "official_basic",
+    "exit_code": 0,
+    "status": "PASS"
+  }
+]

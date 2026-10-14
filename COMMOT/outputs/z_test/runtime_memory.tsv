@@ -1,0 +1,6 @@
+call	inference_seconds	process_peak_RSS_before_inference_MiB	process_peak_RSS_after_inference_MiB	memory_scope
+xy	0.09844629999861354	309.60546875	311.3359375	OS process lifetime high-water mark, including imports/loading; not inference-only allocation
+xyz_zero	0.09961773800023366	311.3359375	311.3359375	OS process lifetime high-water mark, including imports/loading; not inference-only allocation
+xyz_raised	0.09235429899854353	311.3359375	311.3359375	OS process lifetime high-water mark, including imports/loading; not inference-only allocation
+xyz_explicit_3d_distance	0.09274673099571373	311.3359375	311.3359375	OS process lifetime high-water mark, including imports/loading; not inference-only allocation
+xyz_stale_2d_distance	0.09332192800502526	311.3359375	311.3359375	OS process lifetime high-water mark, including imports/loading; not inference-only allocation

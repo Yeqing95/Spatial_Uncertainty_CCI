@@ -1,0 +1,31 @@
+COMMOT readiness: 2026-10-14
+
+Downloaded: YES (COMMOT 0.0.3 and official Basic usage Visium example).
+Installed successfully: YES; dependency check passed in an isolated Python 3.10.22 Linux environment.
+Official example: PASS (4-cell API toy; expected LR scores 0.6 and 0.9).
+Official tutorial: PASS for Basic usage data loading, preprocessing, five-pair inference,
+and Fgf1-Fgfr1 sender/receiver visualization. Later vector-field panels were not run.
+Required input/output compatibility: PASS for the supplied fixed 3D synthetic input.
+
+XYZ test: 2D score 5.0; zero-z 3D score 5.0; raised-z score 0.0.
+An independent positive-control pair remains at 5.0.
+Explicit 3D distances match implicit XYZ; a cached 2D distance matrix overrides XYZ.
+
+Fixed 3D input: 400 cells, 200 genes, 5 sections, 2 synthetic LR pairs.
+Missing LR genes: none.
+LR001 gene_103 -> gene_101: 978 nonzero edges, including 252 self edges and 0 cross-section edges.
+LR002 gene_104 -> gene_102: 16142 nonzero edges, including 290 self edges and 10321 cross-section edges.
+Default distance cutoffs: declared synthetic radii of 13 and 36 um, respectively.
+Sparse LR matrices, stable cell order, edge tables, normalized/count AnnData, and metadata are included.
+
+Fixed 3D inference: 6.636 seconds; fresh-process peak RSS 321.535 MiB.
+Official Basic usage inference: 33.726 seconds; fresh-process peak RSS 730.992 MiB.
+Peak RSS includes imports, input loading, inference and export; it is not solver-only memory.
+These are single-run Linux measurements, not measurements on the user's Mac.
+
+Limitations: the 3D input is a custom semi-synthetic extension, not native scMultiSim 3D CCI.
+Its signal truth is not a COMMOT transport score. Output scores are not posterior probabilities.
+Native COMMOT self edges are preserved; the synthetic truth excludes self interactions.
+This mismatch must be resolved explicitly before accuracy evaluation.
+No uncertainty draws, large benchmarks, accuracy metrics, or biological validation were run.
+Mac installation remains unverified. The pinned package set is supplied for local reproduction.
