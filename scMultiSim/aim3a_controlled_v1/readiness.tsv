@@ -1,0 +1,5 @@
+resource	status
+scMultiSim	installed_1.6.0
+official_enhanced_example	executed_and_exported
+native_2d_truth	executed_and_exported
+semi_synthetic_3d	generated_and_validated

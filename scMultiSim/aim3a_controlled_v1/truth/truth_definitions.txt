@@ -1,0 +1,10 @@
+3D semi-synthetic generator: scMultiSim background WITHOUT native CCI, plus explicit 3D signaling.
+G(i,j,k) = (i != j) and distance(Xi,Xj) <= radius(k). G does not depend on expression.
+W(i,j,k) = G * exp(-distance/decay) * L_i/(L_i+K_L) * R_j/(R_j+K_R).
+lambda[j,response_k] += response_gain_k * sum_i W(i,j,k).
+W is a generating signal, NOT a probability or COMMOT ground-truth score.
+An active edge has W > 0. An admissible edge may have W = 0 because of true molecular absence.
+Synthetic contact is a centroid-distance proxy. No membrane contact, ECM, protein kinetics, or barriers are modeled.
+Radii are controlled simulation parameters, not inferred from LR database membership.
+All nonself cell pairs and the listed LRs form the tested universe; absent G entries are structural negatives.
+No claims are made about unlisted LR pairs. Genes are synthetic identifiers, not mouse/human symbols.

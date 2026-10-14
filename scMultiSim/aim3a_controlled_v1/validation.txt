@@ -1,0 +1,25 @@
+PASS official_2d native cell order
+PASS native source uses audited receiver/sender mask indexing
+PASS native_2d_truth native cell order
+PASS native cci_gt is available
+PASS native cci_gt dimensions
+PASS background dimensions
+PASS nonnegative finite background
+PASS background metadata cell order
+PASS background cell-type labels available
+PASS unique cell and gene IDs
+PASS balanced serial sections
+PASS count axes match stable IDs
+PASS observed raw counts are nonnegative integers
+PASS normalized counts finite
+PASS every geometry draw uses the same ordered cells
+PASS z is held fixed
+PASS reference section anchored
+PASS inadmissible edges have no generating signal
+PASS at least one active cross-section edge
+PASS admissibility is distinct from molecular activation
+PASS no false positive counts in the declared Poisson model
+PASS observed zeros can be nondetections
+PASS true zero state shared by molecular draws
+PASS geometry-only counts fixed by reference
+PASS molecular-only geometry fixed by reference

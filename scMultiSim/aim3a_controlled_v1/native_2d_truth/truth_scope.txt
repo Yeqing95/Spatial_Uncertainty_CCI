@@ -1,0 +1,4 @@
+Labels are the effective support in the final stationary phase, not an event history.
+Unfiltered cci_gt is NOT a spatial edge tensor. Intersect with receiver neighbor sets.
+Source convention audited against GitHub commit 563c3b542ada289fb4d9789bb1bc944229e78699.
+Inspect source before interpreting these axes with a changed simulator implementation.
